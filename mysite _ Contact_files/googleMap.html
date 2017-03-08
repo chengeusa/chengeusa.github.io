@@ -159,7 +159,7 @@
         function loadScript(language, callback){
             var scriptNode = document.createElement('script');
             scriptNode.type = "text/javascript";
-            scriptNode.src = "//maps.googleapis.com/maps/api/js?client=AIzaSyCwPZpikScVJRwW19-aM9Va9-k1LkJXz4U&v=3.27&callback=initMap&language=" + language;
+            scriptNode.src = "//maps.googleapis.com/maps/api/js?key=AIzaSyCwPZpikScVJRwW19-aM9Va9-k1LkJXz4U&callback=initMap&language=" + language;
 
             document.body.appendChild(scriptNode);
         }
